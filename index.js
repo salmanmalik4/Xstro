@@ -47,7 +47,7 @@ if (cluster.isMaster) {
 		console.log('Starting...');
 		await DATABASE.sync();
 		eventlogger();
-		initSession(sessionData);
+		initSession(sessionData);XSTRO_29_57_16
 		await loadPlugins();
 		await client();
 
