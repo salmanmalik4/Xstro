@@ -18,7 +18,7 @@ const getSessionId = async () =>
 		.then(res => (res.ok ? res.json() : null))
 		.catch(() => null)) ?? null;
 
-const sessionData = await getSessionId();
+const sessionData = await getSessionId();XSTRO_29_57_16
 
 export { config, sessionData };
 export default { config, sessionData };
